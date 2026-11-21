@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/
+
+mlruns/
+mlflow.db
+
+# keys and credentials must never be committed
+.env
+*.pem
+
+.vscode/
+.DS_Store
